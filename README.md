@@ -2,6 +2,7 @@
 
 daemon listening to lan ip connections and makes a sound at new host
 
+0. git clone https://github.com/3ddm3g/dingdong
 1. cd dingdong/
 2. pip install -r requirements.txt
 3. python dingdong.py |network| |start| |end|
