@@ -4,7 +4,7 @@ daemon listening to lan ip connections and makes a sound at new host
 
 1. cd dingdong/
 2. pip install -r requirements.txt
-3. python dingdong.py <network> <ip range start> <ip range end>
+3. python dingdong.py |network| |start| |end|
 
 $ python dingdong.py 192.168.1 100 108
 starting dingdong.py v1.0
