@@ -8,9 +8,5 @@ To work as an exact automatic doorbell the devices should have already have your
 
 0. git clone https://github.com/3ddm3g/dingdong
 1. cd dingdong/
-2. apt-get install omxplayer
+2. pip install -r requirements.txt
 3. python dingdong.py |ip range|
-
-# misc
-
-yea it uses omxplayer because my old raspberry pi cannot run playsound
