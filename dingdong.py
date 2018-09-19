@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import sys, os
+import sys, os, playsound
 from threading import Timer
 
 if not sys.argv[1]:
@@ -42,4 +42,4 @@ while True:
             hosts[k].chnew(True)
             print "[info] greeting new host: " + hosts[k].ip
             Timer(3000, hosts[k].chnew(False)).start()
-            os.system("omxplayer -p -o local Hering.mp3 2>&1 >/dev/null")
+            playsound("Hering.mp3")
