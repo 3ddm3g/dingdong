@@ -27,7 +27,7 @@ print "targeting selected hosts... [ "+iprange+" ]"
 for k in range(hostrange[0], hostrange[1]+1): hosts.append(Host(network + "." + str(k), False, True))
 print "listening on "+str(len(hosts))+" host(s)"
 while True:
-    for k in range(0, len(hosts)-1):
+    for k in hosts:
         isup = hosts[k].ping()
         if hosts[k].online:
             if isup != 0:
