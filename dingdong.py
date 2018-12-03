@@ -5,7 +5,7 @@ from threading import Timer
 
 if not sys.argv[1]:
     print "usage: python dingdong.py [ip range]"
-    print "example: python dingdong.py 192.168.0-255"
+    print "example: python dingdong.py 192.168.0.1-255"
     sys.exit()
 
 iprange = sys.argv[1]
