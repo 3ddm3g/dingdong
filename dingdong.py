@@ -4,8 +4,7 @@ import sys, os, playsound
 from threading import Timer
 
 if not sys.argv[1]:
-    print "usage: python dingdong.py [ip range]"
-    print "example: python dingdong.py 192.168.0.1-255"
+    print "usage: python dingdong.py [ip]"
     sys.exit()
 
 iprange = sys.argv[1]
